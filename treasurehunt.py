@@ -99,6 +99,15 @@ def find_treasure(user_states, country):
     return False
 
 def play_game():
+    print("Welcome to the Treasure Hunt game!")
+    print("In this adventure, you are a explorer on a quest to uncover hidden treasures.")
+    print("Your mission is to explore different cities within a chosen country,")
+    print("gather clues, and ultimately discover the secret location of the treasure.")
+    print()
+    print("Currently, you can choose from the following countries:")
+    print("1. India")
+    print("2. USA")
+    print()
        
     country = input("Enter a country: ")
     global states
